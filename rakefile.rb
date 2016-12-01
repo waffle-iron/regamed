@@ -1,8 +1,7 @@
-# Below line is default, no clue what it does
-# frozen_string_literal: true
+# If no task is called, run task :test
+task default: %w[test]
 
-# Download gems from below site
-source "https://rubygems.org"
-
-# Install rake
-gem "rake"
+# Task :test will run a script that checks for required files/outputs a status message
+task :test do
+  ruby "reqtest.rb"
+end
