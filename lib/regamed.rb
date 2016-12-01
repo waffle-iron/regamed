@@ -22,6 +22,7 @@ class Test
   def echo(phrase)
     if @mode == "p"
       puts "Hello World!"
-    return phrase
+      return phrase
+    end
   end
 end
