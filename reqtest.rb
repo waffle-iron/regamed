@@ -2,3 +2,7 @@
 
 # Output status message if this script runs
 puts "STATUS: Working"
+
+# TEMPORARY TEST
+require 'lib/regamed'
+regamed.hello
