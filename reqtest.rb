@@ -5,5 +5,10 @@ puts "STATUS: Working"
 
 # TEMPORARY TEST
 require_relative 'lib/regamed'
-ans = hello
-puts ans
+test = Test.new("p")
+test.ping
+test.hello
+test.echo("ECHO! ECHo! ECho! Echo! echo! cho! ho! o!")
+
+# Output status message if this script runs with no errors
+puts "STATUS: Working"
