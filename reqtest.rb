@@ -4,5 +4,5 @@
 puts "STATUS: Working"
 
 # TEMPORARY TEST
-require 'lib/regamed'
+require_relative 'lib/regamed'
 regamed.hello
