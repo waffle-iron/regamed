@@ -1,4 +1,4 @@
-class test
+class Test
   def initialize(mode="r")
     if mode == "r" or mode == "p"
       @mode = mode
